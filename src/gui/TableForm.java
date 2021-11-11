@@ -11,6 +11,7 @@ public class TableForm {
     StaffTableModel tableModel;
 
     TableForm() {
+        tableModel = new StaffTableModel();
         staffTable.setModel(tableModel);
     }
 
